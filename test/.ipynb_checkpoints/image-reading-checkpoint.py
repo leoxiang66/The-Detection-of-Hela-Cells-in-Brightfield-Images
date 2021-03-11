@@ -1,5 +1,6 @@
 from skimage import io
 import numpy as np
+# from libtiff import TIFF
 from pprint import pprint
 
 # def tiff2Stack(filePath):
