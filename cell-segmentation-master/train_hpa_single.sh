@@ -1,0 +1,17 @@
+python train.py --num_kernel 8\
+                --kernel_size 3\
+                --lr 1e-3 \
+                --epoch 3\
+                --train_data PATH_TO_TRAIN_DATA \
+                --save_dir ./ \
+                --device cuda\
+                --dataset hpa_single\
+                --optimizer adam\
+                --target_channels 0 \
+                --model unet\
+                --shuffle False \
+                --num_workers 16 \
+                --batch_size 32 \
+                --epoch 10 \
+                --gpu_ids 0\
+                --experiment_name hpa_single_8_40
