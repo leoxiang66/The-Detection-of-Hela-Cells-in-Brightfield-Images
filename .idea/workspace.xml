@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc0df1f4-720d-42d8-8986-e3f3d9294a85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/notebooks-master/data_augmentation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks-master/source_img/lena0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks-master/source_img/lena1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,22 +16,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/unet_CellSegmentation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/1_pred.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/notebooks-master/volume_segmentation_with_unet/SegNet.ipynb">
+          <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/16_pred.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/notebooks-master/data_augmentation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -49,6 +47,7 @@
         <option value="$PROJECT_DIR$/test/image-reading.py" />
         <option value="$PROJECT_DIR$/cell-segmentation-master/train.py" />
         <option value="$PROJECT_DIR$/unet_CellSegmentation-master/unet_CellSegmentation.py" />
+        <option value="$PROJECT_DIR$/notebooks-master/data_augmentation.py" />
       </list>
     </option>
   </component>
@@ -74,7 +73,7 @@
             <path>
               <item name="Analysis-of-brightfield-images" type="b2602c69:ProjectViewProjectNode" />
               <item name="Analysis-of-brightfield-images" type="462c0819:PsiDirectoryNode" />
-              <item name="unet_CellSegmentation-master" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks-master" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -87,13 +86,14 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cell-segmentation-tao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/notebooks-master/source_img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notebooks-master/source_img" />
       <recent name="$PROJECT_DIR$/cell-segmentation-tao" />
     </key>
   </component>
@@ -109,7 +109,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.unet_CellSegmentation">
+  <component name="RunManager" selected="Python.data_augmentation">
+    <configuration name="data_augmentation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Analysis-of-brightfield-images" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notebooks-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notebooks-master/data_augmentation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="image-reading" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Analysis-of-brightfield-images" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,6 +200,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.data_augmentation" />
         <item itemvalue="Python.unet_CellSegmentation" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.image-reading" />
@@ -197,16 +220,18 @@
       <workItem from="1615450156768" duration="2515000" />
       <workItem from="1615826381346" duration="4641000" />
       <workItem from="1616181005390" duration="590000" />
+      <workItem from="1616784568391" duration="1334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7746000" />
+    <option name="totallyTimeSpent" value="9080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -228,30 +253,40 @@
       <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30479896" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$main.coverage" NAME="main Coverage Results" MODIFIED="1615830745870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unet-master" />
+    <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$data_augmentation.coverage" NAME="data_augmentation Coverage Results" MODIFIED="1616785947882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notebooks-master" />
     <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$image_reading.coverage" NAME="image-reading Coverage Results" MODIFIED="1615452494716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$unet_CellSegmentation.coverage" NAME="unet_CellSegmentation Coverage Results" MODIFIED="1616181175565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unet_CellSegmentation-master" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/unet-master/img/0test.png" />
-    <entry file="file://$PROJECT_DIR$/unet-master/img/u-net-architecture.png" />
-    <entry file="file://$PROJECT_DIR$/unet-master/dataPrepare.ipynb" />
-    <entry file="file://$PROJECT_DIR$/unet-master/data.py" />
-    <entry file="file://$PROJECT_DIR$/unet-master/img/0label.png" />
-    <entry file="file://$PROJECT_DIR$/test/image-reading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet-master/main.py" />
-    <entry file="file://$PROJECT_DIR$/unet-master/model.py" />
     <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/2_pred.png" />
     <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/raw/hoechst/test/38.png">
       <provider selected="true" editor-type-id="images" />
@@ -267,33 +302,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/43_pred.png" />
     <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/4_pred.png" />
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t009_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t012_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t038_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t062_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t079_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t072_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t043_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t003_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t006_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t009_pred.png" />
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t012_pred.png" />
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t038_pred.png" />
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t062_pred.png" />
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t079_pred.png" />
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t072_pred.png" />
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t043_pred.png" />
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t003_pred.png" />
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t006_pred.png" />
     <entry file="file://$PROJECT_DIR$/cell-segmentation-master/figs/segmentation.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -317,9 +334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cell-segmentation-tao/dataset/dataset.py" />
     <entry file="file://$PROJECT_DIR$/cell-segmentation-tao/train.py" />
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t000_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t000_pred.png" />
     <entry file="file://$PROJECT_DIR$/cell-segmentation-master/metrics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -354,15 +369,9 @@
     <entry file="file://$PROJECT_DIR$/cell-segmentation-master/train_nuclei.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t027_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t017_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t002_pred.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t027_pred.png" />
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t017_pred.png" />
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/t002_pred.png" />
     <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/raw/hoechst/test/44.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -379,6 +388,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/16_pred.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/1_pred.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/unet_CellSegmentation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -386,11 +401,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/1_pred.png">
+    <entry file="file://$PROJECT_DIR$/notebooks-master/volume_segmentation_with_unet/SegNet.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks-master/da/lena_0_5116.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/unet_CellSegmentation-master/preds/16_pred.png">
+    <entry file="file://$PROJECT_DIR$/notebooks-master/da/lena_0_4821.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks-master/da/lena_0_9012.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks-master/da/lena_0_3850.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks-master/da/lena_0_5773.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks-master/da/lena_0_8530.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks-master/data_augmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
