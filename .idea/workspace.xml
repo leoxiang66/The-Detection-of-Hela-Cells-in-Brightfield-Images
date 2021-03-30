@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc0df1f4-720d-42d8-8986-e3f3d9294a85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Blank/Blank 29.png" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Blank/Blank 29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Blank/Blank 30.png" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Blank/Blank 30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Blank/Blank 31.png" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Blank/Blank 31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Blank/Blank 32.png" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Blank/Blank 32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Border/Border 29.png" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Border/Border 29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Border/Border 30.png" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Border/Border 30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Border/Border 31.png" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Border/Border 31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Border/Border 32.png" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Border/Border 32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Center/Center 29.png" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Center/Center 29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Center/Center 30.png" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Center/Center 30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Center/Center 31.png" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Center/Center 31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Center/Center 32.png" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Center/Center 32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify/Extract_Patches.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/Extract_Patches.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -254,17 +266,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10358000" />
+    <option name="totallyTimeSpent" value="10740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,7 +285,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30479896" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30361447" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
