@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc0df1f4-720d-42d8-8986-e3f3d9294a85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/read_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Analysis-of-brightfield-images.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Analysis-of-brightfield-images.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classify 4/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/lenet-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/lenet-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify 4/.ipynb_checkpoints/data_augmentation-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Classify 4/.ipynb_checkpoints/data_augmentation-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify 4/Border/Border 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify 4/Border/Border 12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify 4/Border/Border 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify 4/Border/Border 23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify 4/Border/Border 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify 4/Border/Border 30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify 4/Border/Border 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classify 4/Data_Augmentation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Classify 4/Data_Augmentation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lenet-model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/lenet-model.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lenet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lenet.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/lenet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/crop_image.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,29 +90,7 @@
       <recent name="$PROJECT_DIR$/cell-segmentation-tao" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lenet">
-    <configuration name="data_augmentation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Analysis-of-brightfield-images" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notebooks-master" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notebooks-master/data_augmentation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="lenet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Analysis-of-brightfield-images" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,6 +135,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Analysis-of-brightfield-images" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classify 4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classify 4/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Analysis-of-brightfield-images" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="unet_CellSegmentation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="visualization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Analysis-of-brightfield-images" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,12 +187,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unet_CellSegmentation-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unet_CellSegmentation-master/unet_CellSegmentation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.visualization" />
         <item itemvalue="Python.lenet" />
         <item itemvalue="Python.read_data" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.data_augmentation" />
-        <item itemvalue="Python.unet_CellSegmentation" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +227,7 @@
       <workItem from="1616181005390" duration="590000" />
       <workItem from="1616784568391" duration="1334000" />
       <workItem from="1617218561412" duration="4071000" />
+      <workItem from="1617264626950" duration="6421000" />
     </task>
     <servers />
   </component>
@@ -288,13 +296,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$data_augmentation.coverage" NAME="data_augmentation Coverage Results" MODIFIED="1616785947882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notebooks-master" />
     <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$lenet.coverage" NAME="lenet Coverage Results" MODIFIED="1617222031357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$read_data.coverage" NAME="read_data Coverage Results" MODIFIED="1617220372292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$visualization.coverage" NAME="visualization Coverage Results" MODIFIED="1617269382899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$test.coverage" NAME="test Coverage Results" MODIFIED="1617015028021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$image_reading.coverage" NAME="image-reading Coverage Results" MODIFIED="1615452494716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1617278142836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classify 4" />
     <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$main.coverage" NAME="main Coverage Results" MODIFIED="1615830745870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unet-master" />
     <SUITE FILE_PATH="coverage/Analysis_of_brightfield_images$unet_CellSegmentation.coverage" NAME="unet_CellSegmentation Coverage Results" MODIFIED="1616181175565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unet_CellSegmentation-master" />
   </component>
