@@ -360,3 +360,6 @@ for i in range(26):
 ```
 
 ![](https://i.loli.net/2021/04/02/mtN4vSBLfG6DR9U.png)
+
+# 8. Official Paper
+https://ieeexplore.ieee.org/document/9543103/
